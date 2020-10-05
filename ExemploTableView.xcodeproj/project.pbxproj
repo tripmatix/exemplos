@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		3D032562251D744F00B58BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D032561251D744F00B58BA0 /* AppDelegate.swift */; };
 		3D032564251D744F00B58BA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D032563251D744F00B58BA0 /* SceneDelegate.swift */; };
-		3D032566251D744F00B58BA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D032565251D744F00B58BA0 /* ViewController.swift */; };
-		3D032569251D744F00B58BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D032567251D744F00B58BA0 /* Main.storyboard */; };
 		3D03256B251D745900B58BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D03256A251D745900B58BA0 /* Assets.xcassets */; };
 		3D03256E251D745900B58BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D03256C251D745900B58BA0 /* LaunchScreen.storyboard */; };
 		3D032579251D745900B58BA0 /* ExemploTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D032578251D745900B58BA0 /* ExemploTableViewTests.swift */; };
 		3D032584251D745900B58BA0 /* ExemploTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D032583251D745900B58BA0 /* ExemploTableViewUITests.swift */; };
+		3D032592251D757F00B58BA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D032591251D757F00B58BA0 /* ViewController.swift */; };
+		3D68B9BE251EBE15000C3403 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68B9BD251EBE15000C3403 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		3D03255E251D744F00B58BA0 /* ExemploTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExemploTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D032561251D744F00B58BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D032563251D744F00B58BA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D032565251D744F00B58BA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D032568251D744F00B58BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D03256A251D745900B58BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D03256D251D745900B58BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D03256F251D745900B58BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		3D03257F251D745900B58BA0 /* ExemploTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExemploTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D032583251D745900B58BA0 /* ExemploTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExemploTableViewUITests.swift; sourceTree = "<group>"; };
 		3D032585251D745900B58BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D032591251D757F00B58BA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D68B9BD251EBE15000C3403 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				3D032561251D744F00B58BA0 /* AppDelegate.swift */,
 				3D032563251D744F00B58BA0 /* SceneDelegate.swift */,
-				3D032565251D744F00B58BA0 /* ViewController.swift */,
-				3D032567251D744F00B58BA0 /* Main.storyboard */,
+				3D032591251D757F00B58BA0 /* ViewController.swift */,
+				3D68B9BD251EBE15000C3403 /* DetailViewController.swift */,
 				3D03256A251D745900B58BA0 /* Assets.xcassets */,
 				3D03256C251D745900B58BA0 /* LaunchScreen.storyboard */,
 				3D03256F251D745900B58BA0 /* Info.plist */,
@@ -191,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Romulo Oliveira Viganico";
 				TargetAttributes = {
 					3D03255D251D744F00B58BA0 = {
@@ -234,7 +234,6 @@
 			files = (
 				3D03256E251D745900B58BA0 /* LaunchScreen.storyboard in Resources */,
 				3D03256B251D745900B58BA0 /* Assets.xcassets in Resources */,
-				3D032569251D744F00B58BA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D032566251D744F00B58BA0 /* ViewController.swift in Sources */,
+				3D032592251D757F00B58BA0 /* ViewController.swift in Sources */,
 				3D032562251D744F00B58BA0 /* AppDelegate.swift in Sources */,
 				3D032564251D744F00B58BA0 /* SceneDelegate.swift in Sources */,
+				3D68B9BE251EBE15000C3403 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3D032567251D744F00B58BA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D032568251D744F00B58BA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3D03256C251D745900B58BA0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,6 +334,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,6 +395,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
